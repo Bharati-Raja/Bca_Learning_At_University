@@ -2,7 +2,7 @@
 int main() 
 {
     //Write your code here
-    printf("Bharati RAja Swami");
+    printf("Bharati Raja Swami");
 
     return 0;
 }

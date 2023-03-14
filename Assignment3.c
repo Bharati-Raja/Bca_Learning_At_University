@@ -22,4 +22,5 @@ int main()
 	{
 		printf("%d",remainder[j]);
 	}
+	return 0;
 }

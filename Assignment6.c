@@ -3,7 +3,7 @@
 #define SIZE 10
 int main()
 {
-	int a[SIZE]={8,7,7,6,6,5,4,3,3,1};//array must be sorted in order
+	int a[SIZE]={8,7,7,6,6,5,4,3,3,1};//array must be sorted in order here are 10 elements in array 
 	int count=0;
 	
 	printf("Sorted Array in order : ");

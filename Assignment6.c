@@ -1,3 +1,4 @@
+//Write a C code to find the number of distinct elements in a sorted array
 #include<stdio.h>
 #define SIZE 10
 int main()

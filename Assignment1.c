@@ -3,13 +3,14 @@
 #include<stdio.h>
 
 int main()
-{
-	int a[1],no_of_elements,negative_count=0,positive_count=0;
-	
-	
-	printf("enter number of elements of array : ");
+{int no_of_elements;
+printf("enter number of elements of array : ");
 	
 	scanf("%d",&no_of_elements);
+	int a[no_of_elements],negative_count=0,positive_count=0;
+	
+	
+	
 	
 	printf("\nenter elements of array :\n");
 	for(int i=0;i<no_of_elements;i++)

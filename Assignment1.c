@@ -7,7 +7,7 @@ int main()
 printf("enter number of elements of array : ");
 	
 	scanf("%d",&no_of_elements);
-	int a[no_of_elements],negative_count=0,positive_count=0;
+	int a[no_of_elements],negative_count=0,positive_count=0;zero=0;
 	
 	
 	
@@ -24,14 +24,19 @@ printf("enter number of elements of array : ");
 			    {
 			     positive_count++; 
 			    }
-		    	else
+		    	else(a[j]<0) 
 		    	{
 		    		negative_count++;
 		    	}
+			else 
+		    	{
+		    		zero++;
+		    	}
+			
 		 }
 
   printf("\nthe total positive values found in array are : %d ",positive_count);
 	printf("\nthe total negative values found in array are : %d ",negative_count);
-	 
+	printf("\nthe total null values found in array are : %d ",zero); 
   return 0;                //this code was created by Bharati Raja
 }

@@ -3,19 +3,44 @@
 #include<stdio.h>
 int main()
 {
-int matrix[3][3]={{1,2,3},{4,50,6},{7,8,9}};
-int max=0,i,j;
-printf("MATRIX is :\n \n");
+int matrix[3][3],max=0;
+int  i,j,count=1;
+printf("enter MATRIX elements of (3 x 3) :\n \n");
+
 for(i=0;i<3;i++)
 {
     for(j=0;j<3;j++)
   {
-      printf("|%d ",matrix[i][j]);
-	       if(max<matrix[i][j]){max=matrix[i][j];}                 //executes only if value of max is less then latest element of matrix and value of max will be updated
+      scanf("%d",&matrix[i][j]);               //for getting input from user
+               
   }
-  printf("|\n");                                                 //for changing position of cursor next line
+                                                 
 }
-  printf("_________\n \nTe maximum element in the matrix is %d",max);
+printf(" MATRIX elements are : \n");
+ 
+for(i=0;i<3;i++)
+{
+    for(j=0;j<3;j++)
+  {
+      printf("(%d)",matrix[i][j]);              //for printing elements of matrix
+               
+  } printf("\n");
+                                                
+}
+for (i=0;i<3;i++)
+{
+	 int row=i+1; 
+	
+		for (j=0;j<3;j++)
+		{
+		if(matrix[i][j]>max){max=matrix[i][j];}               //for storing max value in current row
+		}
+	
+	printf("\nthe element with max value in row %d = %d\n",row,max);
+	max=0;
+}
+
+  
 
   return 0;                                                        // CREATED BY BHARATI RAJA SWAMI
 }

@@ -9,14 +9,15 @@ int main()
   while((number%8)==0)
   {
     printf("entered number %d is valid",number);//valid only if the number id divisible by 8
-           count++;
-     printf("\nvalid number count = %d ",count);
-    printf("\n enter another number : ");
-  scanf("%d",&number);
+    count++;
+     
+    printf("\n \nenter another number : ");
+    scanf("%d",&number);
   }
   if((number%8)!=0)
   {
-  	printf("\n enterered number is not valid. ");
+  	printf("\nenterered number is not valid. ");
+  	printf("\nvalid number count = %d ",count);
   }
   return 0;
 }

@@ -7,7 +7,7 @@ int main()
 printf("enter number of elements of array : ");
 	
 	scanf("%d",&no_of_elements);
-	int a[no_of_elements],negative_count=0,positive_count=0;zero=0;
+	int a[no_of_elements],negative_count=0,positive_count=0,zero=0;
 	
 	
 	
@@ -24,7 +24,7 @@ printf("enter number of elements of array : ");
 			    {
 			     positive_count++; 
 			    }
-		    	else(a[j]<0) 
+		    	else if (a[j]<0) 
 		    	{
 		    		negative_count++;
 		    	}

@@ -49,6 +49,6 @@ printf("THIS IS A BASIC CALCULATOR :\nIN THIS YOU HAVE TO ENTER TWO VALUES AND \
     
 }
 
-   
+   return 0;
 
 }

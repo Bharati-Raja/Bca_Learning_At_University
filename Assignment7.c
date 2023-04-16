@@ -23,6 +23,6 @@ printf("reverse string : ");
 		
 	}
  
-}
+} 
   return 0;
 }
